@@ -13,3 +13,7 @@ body {
   background-color: #fff;
   border: 1px solid #ddd;
 }
+
+#footer{
+  background-color: red;
+}
