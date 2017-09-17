@@ -1,0 +1,15 @@
+body {
+  color: #777;
+  background: url(../images/concrete-texture.png);
+}
+
+#logo{
+  background-color: #4aaaa5;
+  color: white;
+
+}
+
+.contents{
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
