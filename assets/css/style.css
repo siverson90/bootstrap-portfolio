@@ -18,6 +18,11 @@ body {
   background-color: red;
 }
 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
 
 footer{
     font-size: 12px;
@@ -66,13 +71,14 @@ h2 {
 .thumbnail-wrapper{
   position: relative;
   width: 100%;
+  text-align: center;
 }
 
 .banner{
     background-color: rgba(74, 170, 165, 0.9);
     position: absolute;
     z-index: 1;
-    width: 90%;
+    width: 100%;
     bottom: 26px;
     text-align: center;
 }
@@ -84,3 +90,25 @@ h4 {
 .picture{
   width: 100%;
 }
+
+.img-responsive{
+  position: relative;
+}
+
+#connect{
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+.jail{
+  opacity: .5;
+  background-color: red;
+  overflow: hidden;
+}
+
