@@ -53,6 +53,7 @@ h2 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #4aaaa5;
+    font-size: 30px;
 }
 
 .image-wraper {
@@ -95,10 +96,11 @@ h4 {
   position: relative;
 }
 
-#connect{
+.connect{
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
+  font-size: 30px;
 }
 
 .img-fluid{
@@ -106,9 +108,11 @@ h4 {
   height: auto;
 }
 
-.jail{
-  opacity: .5;
-  background-color: red;
-  overflow: hidden;
+#color-override{
+  background-color: #fff;
+}
+
+#connect-size{
+  font-size: 22px;
 }
 
